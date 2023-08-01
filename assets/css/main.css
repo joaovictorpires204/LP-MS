@@ -2648,10 +2648,11 @@ ul.alt > li:last-child {
 
 ul.items {
   list-style: none;
-  padding-left: 0;
-  color: white;
-  position: relative;
-  top: -250px;
+    padding-left: 0;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 250px;
 }
 
 ul.items > li {
