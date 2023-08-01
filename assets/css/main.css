@@ -2676,9 +2676,10 @@ ul.items > li:last-child {
 
 @media screen and (max-width: 736px) {
   ul.items {
-	margin: -30px;
+    position: relative;
     padding: 20px 0px 20px 5px !important;
-    width: 119%;
+    width: 530px;
+    left: -100px;
     top: -10px;
     background-color: #4d2480;
     text-align: center;
